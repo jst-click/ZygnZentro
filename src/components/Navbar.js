@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+﻿import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import {
   RiMenuLine,
@@ -12,12 +12,12 @@ import SiteSearch from './SiteSearch';
 import './Navbar.css';
 
 const ZYGNPRO_URL = 'https://play.google.com/store/apps/details?id=com.jstclick.zygnpro&pcampaignid=web_share';
-const ZENTRO_URL = 'https://play.google.com/store/apps/details?id=com.jstclick.zentro&pcampaignid=web_share';
+const Zevive_URL = 'https://play.google.com/store/apps/details?id=com.jstclick.zentro&pcampaignid=web_share';
 
 const navLinks = [
   { path: '/', label: 'Home' },
   { path: '/zygnpro', label: 'ZygnPro', icon: <RiShieldCheckLine /> },
-  { path: '/zentro', label: 'Zentro', icon: <RiCheckboxLine /> },
+  { path: '/zevive', label: 'Zevive', icon: <RiCheckboxLine /> },
   { path: '/about', label: 'About Us' },
   { path: '/contact', label: 'Contact' },
 ];
@@ -70,8 +70,8 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
               </span>
               <span className="logo-text-sep">&</span>
               <span className="nav-brand-pair">
-                <img src="/zentro-logo.png" alt="" className="brand-logo" />
-                <span className="logo-text logo-text-green">Zentro</span>
+                <img src="/zevive-logo.png" alt="" className="brand-logo" />
+                <span className="logo-text logo-text-green">Zevive</span>
               </span>
             </Link>
           </div>
@@ -181,8 +181,8 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
           <a href={ZYGNPRO_URL} target="_blank" rel="noopener noreferrer" className="nav-dl-chip blue">
             <RiGooglePlayLine /> ZygnPro
           </a>
-          <a href={ZENTRO_URL} target="_blank" rel="noopener noreferrer" className="nav-dl-chip green">
-            <RiGooglePlayLine /> Zentro
+          <a href={Zevive_URL} target="_blank" rel="noopener noreferrer" className="nav-dl-chip green">
+            <RiGooglePlayLine /> Zevive
           </a>
         </div>
 
@@ -201,6 +201,6 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
   );
 };
 
-export { ZYGNPRO_URL, ZENTRO_URL };
+export { ZYGNPRO_URL, Zevive_URL };
 
 export default Navbar;

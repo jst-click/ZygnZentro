@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { Link } from 'react-router-dom';
 import {
   RiFileTextLine,
@@ -25,11 +25,11 @@ const sections = [
     content: [
       {
         subtitle: 'Agreement to Terms',
-        text: 'By downloading, installing, or using ZygnPro or Zentro (collectively, "the Applications"), you agree to be bound by these Terms and Conditions. If you do not agree to these terms, do not use our applications.',
+        text: 'By downloading, installing, or using ZygnPro or Zevive (collectively, "the Applications"), you agree to be bound by these Terms and Conditions. If you do not agree to these terms, do not use our applications.',
       },
       {
         subtitle: 'Eligibility',
-        text: 'You must be at least 18 years of age to use ZygnPro or Zentro. These applications are designed for professional and legal use cases and are not suitable for minors. By using the Applications, you represent and warrant that you meet this age requirement.',
+        text: 'You must be at least 18 years of age to use ZygnPro or Zevive. These applications are designed for professional and legal use cases and are not suitable for minors. By using the Applications, you represent and warrant that you meet this age requirement.',
       },
       {
         subtitle: 'Capacity to Contract',
@@ -46,8 +46,8 @@ const sections = [
         text: 'ZygnPro is a secure digital signature platform that enables legally verifiable document signing through biometric identity verification, OTP-based authentication, audit trail generation, and blockchain-based signature verification. ZygnPro is intended for use by businesses, enterprises, legal professionals, financial institutions, government organizations, and individuals who require legally verifiable digital signatures.',
       },
       {
-        subtitle: 'Zentro',
-        text: 'Zentro is a productivity and task management application that provides smart task creation and assignment, voice note integration, real-time team collaboration, location-based task reminders, media attachments, analytics and progress tracking, and a task history and activity log. Zentro is intended for individuals and teams seeking to improve personal and organizational productivity.',
+        subtitle: 'Zevive',
+        text: 'Zevive is a productivity and task management application that provides smart task creation and assignment, voice note integration, real-time team collaboration, location-based task reminders, media attachments, analytics and progress tracking, and a task history and activity log. Zevive is intended for individuals and teams seeking to improve personal and organizational productivity.',
       },
       {
         subtitle: 'Platform Availability',
@@ -86,8 +86,8 @@ const sections = [
         text: 'You may use ZygnPro to sign documents digitally for legitimate professional, legal, financial, or organizational purposes. All signing actions must represent authentic, authorized acts by you as the verified signer. You agree not to use ZygnPro to sign documents on behalf of another person without explicit authorization.',
       },
       {
-        subtitle: 'Zentro Permitted Use',
-        text: 'You may use Zentro to manage personal and team tasks, collaborate with authorized colleagues, and track productivity for legitimate personal or professional purposes.',
+        subtitle: 'Zevive Permitted Use',
+        text: 'You may use Zevive to manage personal and team tasks, collaborate with authorized colleagues, and track productivity for legitimate personal or professional purposes.',
       },
     ],
   },
@@ -118,8 +118,8 @@ const sections = [
         text: 'You acknowledge that the accuracy of biometric identity verification is dependent on the quality of the data you provide. You are responsible for ensuring that you are the person performing the identity verification during any signing event in ZygnPro.',
       },
       {
-        subtitle: 'Task and Voice Data (Zentro)',
-        text: 'You retain ownership of the content you create in Zentro, including tasks, notes, and voice recordings. You grant UvRevive a limited license to store and process this content solely for the purpose of delivering the app\'s features to you.',
+        subtitle: 'Task and Voice Data (Zevive)',
+        text: 'You retain ownership of the content you create in Zevive, including tasks, notes, and voice recordings. You grant UvRevive a limited license to store and process this content solely for the purpose of delivering the app\'s features to you.',
       },
     ],
   },
@@ -151,7 +151,7 @@ const sections = [
       },
       {
         subtitle: 'Restrictions',
-        text: 'You may not copy, modify, distribute, sell, sublicense, or create derivative works based on the Applications or any part thereof without our express prior written consent. The ZygnPro and Zentro names, logos, and branding may not be used without authorization.',
+        text: 'You may not copy, modify, distribute, sell, sublicense, or create derivative works based on the Applications or any part thereof without our express prior written consent. The ZygnPro and Zevive names, logos, and branding may not be used without authorization.',
       },
     ],
   },
@@ -217,7 +217,7 @@ const TermsAndConditions = () => {
             <p className="section-label">Legal</p>
             <h1 className="legal-hero-title">Terms & Conditions</h1>
             <p className="legal-hero-subtitle">
-              These Terms and Conditions govern your use of ZygnPro and Zentro, provided by UvRevive. Please read them carefully before using our applications.
+              These Terms and Conditions govern your use of ZygnPro and Zevive, provided by UvRevive. Please read them carefully before using our applications.
             </p>
             <div className="legal-meta">
               <span><RiCalendarLine /> Effective Date: February 3, 2026</span>
@@ -259,7 +259,7 @@ const TermsAndConditions = () => {
                   </p>
                 </div>
                 <p>
-                  By downloading or using ZygnPro or Zentro, you enter into a binding legal agreement with UvRevive. These Terms apply to all users of both applications.
+                  By downloading or using ZygnPro or Zevive, you enter into a binding legal agreement with UvRevive. These Terms apply to all users of both applications.
                 </p>
               </div>
 
@@ -295,7 +295,7 @@ const TermsAndConditions = () => {
                   </p>
                   <div className="legal-contact-block">
                     <div><strong>Company:</strong> UvRevive</div>
-                    <div><strong>Apps:</strong> ZygnPro & Zentro</div>
+                    <div><strong>Apps:</strong> ZygnPro & Zevive</div>
                     <div><strong>Email:</strong> <a href={`mailto:${SUPPORT_EMAIL}`}>{SUPPORT_EMAIL}</a></div>
                     <div><strong>Location:</strong> India</div>
                   </div>

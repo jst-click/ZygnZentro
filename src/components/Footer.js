@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { Link } from 'react-router-dom';
 import {
   RiShieldCheckLine,
@@ -29,12 +29,12 @@ const Footer = () => {
               </span>
               <span className="logo-text-sep">&</span>
               <span className="nav-brand-pair">
-                <img src="/zentro-logo.png" alt="" className="brand-logo" />
-                <span className="logo-text logo-text-green">Zentro</span>
+                <img src="/zevive-logo.png" alt="" className="brand-logo" />
+                <span className="logo-text logo-text-green">Zevive</span>
               </span>
             </Link>
             <p className="footer-tagline">
-              ZygnPro for secure digital signatures. Zentro for productivity and task management — built for professionals who demand more.
+              ZygnPro for secure digital signatures. Zevive for productivity and task management — built for professionals who demand more.
             </p>
             <div className="footer-contact-info">
               <div className="contact-item">
@@ -70,10 +70,10 @@ const Footer = () => {
 
             <div className="footer-app-card" style={{ marginTop: '20px' }}>
               <div className="app-card-icon green">
-                <img src="/zentro-logo.png" alt="" className="app-card-logo" />
+                <img src="/zevive-logo.png" alt="" className="app-card-logo" />
               </div>
               <div>
-                <div className="app-card-name">Zentro</div>
+                <div className="app-card-name">Zevive</div>
                 <div className="app-card-desc">Productivity & Task Manager</div>
               </div>
             </div>
@@ -93,7 +93,7 @@ const Footer = () => {
               {[
                 { path: '/', label: 'Home' },
                 { path: '/zygnpro', label: 'ZygnPro' },
-                { path: '/zentro', label: 'Zentro' },
+                { path: '/zevive', label: 'Zevive' },
                 { path: '/about', label: 'About Us' },
                 { path: '/contact', label: 'Contact Us' },
               ].map(({ path, label }) => (
@@ -130,8 +130,8 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/zentro" className="footer-nav-link">
-                  <RiArrowRightLine /> Zentro Features
+                <Link to="/zevive" className="footer-nav-link">
+                  <RiArrowRightLine /> Zevive Features
                 </Link>
               </li>
             </ul>
@@ -140,7 +140,7 @@ const Footer = () => {
 
         <div className="footer-bottom">
           <p className="footer-copy">
-            &copy; {currentYear} ZygnPro & Zentro by UvRevive. All rights reserved.
+            &copy; {currentYear} ZygnPro & Zevive by UvRevive. All rights reserved.
           </p>
           <nav className="footer-bottom-links" aria-label="Legal">
             <Link to="/privacy-policy">Privacy Policy</Link>

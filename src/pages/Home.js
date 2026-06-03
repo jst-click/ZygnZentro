@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { Link } from 'react-router-dom';
 import {
   RiShieldCheckLine,
@@ -32,14 +32,14 @@ import {
 import './Home.css';
 
 const ZYGNPRO_URL = "https://play.google.com/store/apps/details?id=com.jstclick.zygnpro&pcampaignid=web_share";
-const ZENTRO_URL = "https://play.google.com/store/apps/details?id=com.jstclick.zentro&pcampaignid=web_share";
+const Zevive_URL = "https://play.google.com/store/apps/details?id=com.jstclick.zentro&pcampaignid=web_share";
 
 const useCases = [
   { icon: <RiBuilding2Line />, title: 'Enterprises', desc: 'Streamline contracts, approvals, and compliance documents across departments with verified digital signatures.' },
   { icon: <RiBriefcaseLine />, title: 'Legal & Finance', desc: 'Close deals faster with tamper-proof audit trails and identity-bound signatures that stand up to scrutiny.' },
   { icon: <RiHealthBookLine />, title: 'Healthcare', desc: 'Manage consent forms and internal workflows while keeping sensitive records secure and traceable.' },
   { icon: <RiBankLine />, title: 'Banking & Insurance', desc: 'Reduce paper handling for policies, claims, and customer agreements with blockchain-backed integrity.' },
-  { icon: <RiTeamLine />, title: 'Remote Teams', desc: 'Coordinate projects in Zentro with real-time sync, voice notes, and location-aware reminders.' },
+  { icon: <RiTeamLine />, title: 'Remote Teams', desc: 'Coordinate projects in Zevive with real-time sync, voice notes, and location-aware reminders.' },
   { icon: <RiDashboardLine />, title: 'Field Operations', desc: 'Assign site tasks, attach photos, and get notified when team members arrive on location.' },
 ];
 
@@ -50,7 +50,7 @@ const zygnWorkflow = [
   { step: '04', title: 'Verify Forever', desc: 'Blockchain hashing ensures any post-signature change is instantly detectable by anyone who verifies.' },
 ];
 
-const zentroWorkflow = [
+const ZeviveWorkflow = [
   { step: '01', title: 'Plan & Prioritize', desc: 'Create tasks, set deadlines, and organize work by project, team, or priority level.' },
   { step: '02', title: 'Enrich with Context', desc: 'Add voice notes, images, files, and location triggers so nothing gets lost in translation.' },
   { step: '03', title: 'Collaborate Live', desc: 'Assign work to teammates and see updates in real time — everyone stays on the same page.' },
@@ -58,22 +58,22 @@ const zentroWorkflow = [
 ];
 
 const homeFaqs = [
-  { q: 'What is the difference between ZygnPro and Zentro?', a: 'ZygnPro is a digital signature platform focused on secure, legally verifiable document signing with biometrics and blockchain proof. Zentro is a productivity app for task management, team collaboration, and workflow analytics. Many professionals use both together.' },
-  { q: 'Are ZygnPro and Zentro free to download?', a: 'Yes. Both apps are available on Google Play. Download and explore core features at no upfront cost. Enterprise or advanced requirements can be discussed through our contact page.' },
+  { q: 'What is the difference between ZygnPro and Zevive?', a: 'ZygnPro is a digital signature platform focused on secure, legally verifiable document signing with biometrics and blockchain proof. Zevive is a productivity app for task management, team collaboration, and workflow analytics. Many professionals use both together.' },
+  { q: 'Are ZygnPro and Zevive free to download?', a: 'Yes. Both apps are available on Google Play. Download and explore core features at no upfront cost. Enterprise or advanced requirements can be discussed through our contact page.' },
   { q: 'Which devices are supported?', a: 'Both applications run on Android 7.0 and above. They are optimized for smartphones with reliable performance on modern hardware.' },
   { q: 'Is my data secure?', a: 'Absolutely. Data is encrypted in transit, biometrics are used only for verification in ZygnPro, and neither app sells your information for advertising. See our Privacy Policy for full details.' },
   { q: 'Can I use ZygnPro for legally binding signatures?', a: 'ZygnPro is designed to support legally verifiable digital signatures with identity verification and audit trails. Enforceability depends on your jurisdiction — consult local regulations for your specific use case.' },
   { q: 'How do I get support?', a: 'Email us at zygnverify.com@gmail.com or visit our Contact page for product questions, technical help, or enterprise inquiries. We typically respond within 1–2 business days.' },
-  { q: 'Can I use both apps together?', a: 'Yes. Many teams use ZygnPro for contracts and agreements, then manage delivery and follow-ups in Zentro. They complement each other without overlapping features.' },
-  { q: 'Do you offer enterprise plans?', a: 'We support organizations that need admin dashboards, volume deployment, and custom workflows. Contact us with your requirements for ZygnPro, Zentro, or both.' },
-  { q: 'Where is my data stored?', a: 'Data is handled securely in line with our Privacy Policy. ZygnPro audit records may be retained for compliance; Zentro task data remains under your control with deletion options in-app.' },
+  { q: 'Can I use both apps together?', a: 'Yes. Many teams use ZygnPro for contracts and agreements, then manage delivery and follow-ups in Zevive. They complement each other without overlapping features.' },
+  { q: 'Do you offer enterprise plans?', a: 'We support organizations that need admin dashboards, volume deployment, and custom workflows. Contact us with your requirements for ZygnPro, Zevive, or both.' },
+  { q: 'Where is my data stored?', a: 'Data is handled securely in line with our Privacy Policy. ZygnPro audit records may be retained for compliance; Zevive task data remains under your control with deletion options in-app.' },
   { q: 'How often are apps updated?', a: 'We release regular updates with security patches, performance improvements, and new features based on professional user feedback.' },
 ];
 
 const trustFeatures = [
   { icon: <RiLockLine />, title: 'End-to-End Encryption', desc: 'Data protected in transit with industry-standard encryption across both applications.' },
   { icon: <RiFingerprint2Line />, title: 'Biometric Verification', desc: 'ZygnPro binds every signature to live identity checks at the moment of signing.' },
-  { icon: <RiCloudLine />, title: 'Secure Cloud Sync', desc: 'Zentro keeps teams aligned with reliable sync when connectivity is available.' },
+  { icon: <RiCloudLine />, title: 'Secure Cloud Sync', desc: 'Zevive keeps teams aligned with reliable sync when connectivity is available.' },
   { icon: <RiAwardLine />, title: 'Compliance Ready', desc: 'Audit trails, OTP auth, and privacy controls built for regulated industries.' },
   { icon: <RiCustomerService2Line />, title: 'Dedicated Support', desc: 'Reach our team for product help, enterprise sales, and technical questions.' },
   { icon: <RiDeviceLine />, title: 'Android Optimized', desc: 'Native mobile experience on Android 7.0+ with professional-grade performance.' },
@@ -81,7 +81,7 @@ const trustFeatures = [
 
 const resources = [
   { icon: <RiShieldCheckLine />, title: 'ZygnPro Guide', desc: 'Explore signing workflows, biometrics, blockchain proof, and enterprise admin tools.', path: '/zygnpro', cta: 'Read ZygnPro details' },
-  { icon: <RiCheckboxLine />, title: 'Zentro Guide', desc: 'Learn task management, collaboration, voice notes, and productivity analytics.', path: '/zentro', cta: 'Read Zentro details' },
+  { icon: <RiCheckboxLine />, title: 'Zevive Guide', desc: 'Learn task management, collaboration, voice notes, and productivity analytics.', path: '/zevive', cta: 'Read Zevive details' },
   { icon: <RiBookOpenLine />, title: 'Privacy & Terms', desc: 'Understand how we handle data, biometrics, and your rights as a user.', path: '/privacy-policy', cta: 'View Privacy Policy' },
 ];
 
@@ -100,25 +100,25 @@ const Home = () => {
         <div className="container hero-content">
           <div className="hero-badge animate-fade-up">
             <RiVerifiedBadgeLine />
-            <span>ZygnPro & Zentro — Trusted Digital Solutions</span>
+            <span>ZygnPro & Zevive — Trusted Digital Solutions</span>
           </div>
 
           <h1 className="hero-title animate-fade-up delay-1">
             <span className="hero-title-gradient">ZygnPro</span>
             <br />
-            &amp; <span className="hero-title-gradient hero-title-green">Zentro</span>
+            &amp; <span className="hero-title-gradient hero-title-green">Zevive</span>
           </h1>
 
           <p className="hero-subtitle animate-fade-up delay-2">
-            ZygnPro delivers biometric digital signatures with blockchain proof. Zentro powers task management, team collaboration, and productivity analytics. Two apps built for professionals who refuse to compromise on security or speed.
+            ZygnPro delivers biometric digital signatures with blockchain proof. Zevive powers task management, team collaboration, and productivity analytics. Two apps built for professionals who refuse to compromise on security or speed.
           </p>
 
           <div className="hero-actions animate-fade-up delay-3">
             <Link to="/zygnpro" className="btn btn-primary btn-lg">
               <RiShieldCheckLine /> Explore ZygnPro
             </Link>
-            <Link to="/zentro" className="btn btn-secondary btn-lg">
-              <RiCheckboxLine /> Explore Zentro
+            <Link to="/zevive" className="btn btn-secondary btn-lg">
+              <RiCheckboxLine /> Explore Zevive
             </Link>
           </div>
         </div>
@@ -165,16 +165,16 @@ const Home = () => {
               </div>
             </div>
 
-            {/* Zentro Card */}
-            <div className="app-card app-card-zentro">
+            {/* Zevive Card */}
+            <div className="app-card app-card-Zevive">
               <div className="app-card-bg app-card-bg-green" />
               <div className="app-card-header">
                 <div className="app-icon app-icon-green">
-                  <img src="/zentro-logo.png" alt="" className="app-logo-img" />
+                  <img src="/zevive-logo.png" alt="" className="app-logo-img" />
                 </div>
                 <div className="app-badge badge badge-green">Productivity</div>
               </div>
-              <h3 className="app-card-title">Zentro</h3>
+              <h3 className="app-card-title">Zevive</h3>
               <p className="app-card-desc">
                 Your all-in-one productivity and task management companion. Smart task creation, real-time team collaboration, voice notes, location-based reminders, and deep analytics.
               </p>
@@ -185,10 +185,10 @@ const Home = () => {
                 <li><RiNotification3Line /> Smart Reminders & Alerts</li>
               </ul>
               <div className="app-card-actions">
-                <a href={ZENTRO_URL} target="_blank" rel="noopener noreferrer" className="btn btn-green">
+                <a href={Zevive_URL} target="_blank" rel="noopener noreferrer" className="btn btn-green">
                   <RiGooglePlayLine /> Download on Play Store
                 </a>
-                <Link to="/zentro" className="btn btn-outline">
+                <Link to="/zevive" className="btn btn-outline">
                   Learn More <RiArrowRightLine />
                 </Link>
               </div>
@@ -224,7 +224,7 @@ const Home = () => {
             <p className="section-label">Industries & Teams</p>
             <h2 className="section-title">Built for how you actually work</h2>
             <p className="section-subtitle">
-              From regulated industries to fast-moving teams, ZygnPro and Zentro adapt to the workflows that matter most in your organization.
+              From regulated industries to fast-moving teams, ZygnPro and Zevive adapt to the workflows that matter most in your organization.
             </p>
           </div>
           <div className="content-grid-3">
@@ -268,18 +268,18 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Zentro Workflow */}
+      {/* Zevive Workflow */}
       <section className="section">
         <div className="container">
           <div className="text-center" style={{ marginBottom: '48px' }}>
-            <p className="section-label">How Zentro Works</p>
+            <p className="section-label">How Zevive Works</p>
             <h2 className="section-title">From idea to done — without the chaos</h2>
             <p className="section-subtitle">
-              Zentro turns scattered to-dos into a clear, collaborative system your whole team can rely on every day.
+              Zevive turns scattered to-dos into a clear, collaborative system your whole team can rely on every day.
             </p>
           </div>
           <div className="workflow-timeline">
-            {zentroWorkflow.map(({ step, title, desc }) => (
+            {ZeviveWorkflow.map(({ step, title, desc }) => (
               <div className="workflow-step-card" key={title}>
                 <div className="workflow-step-num">{step}</div>
                 <h4>{title}</h4>
@@ -288,8 +288,8 @@ const Home = () => {
             ))}
           </div>
           <div style={{ textAlign: 'center', marginTop: '40px' }}>
-            <Link to="/zentro" className="btn btn-green">
-              <RiCheckboxLine /> See all Zentro features <RiArrowRightLine />
+            <Link to="/zevive" className="btn btn-green">
+              <RiCheckboxLine /> See all Zevive features <RiArrowRightLine />
             </Link>
           </div>
         </div>
@@ -311,7 +311,7 @@ const Home = () => {
             <div className="compare-row">
               <div className="compare-cell header feature">Capability</div>
               <div className="compare-cell header">ZygnPro</div>
-              <div className="compare-cell header">Zentro</div>
+              <div className="compare-cell header">Zevive</div>
             </div>
             {[
               ['Digital document signing', '✓', '—'],
@@ -323,11 +323,11 @@ const Home = () => {
               ['Location-based reminders', '—', '✓'],
               ['Productivity analytics', '—', '✓'],
               ['Admin dashboard', '✓', '—'],
-            ].map(([feature, zygn, zentro]) => (
+            ].map(([feature, zygn, Zevive]) => (
               <div className="compare-row" key={feature}>
                 <div className="compare-cell feature">{feature}</div>
                 <div className={`compare-cell ${zygn === '✓' ? 'check' : ''}`}>{zygn}</div>
-                <div className={`compare-cell ${zentro === '✓' ? 'check' : ''}`}>{zentro}</div>
+                <div className={`compare-cell ${Zevive === '✓' ? 'check' : ''}`}>{Zevive}</div>
               </div>
             ))}
           </div>
@@ -358,7 +358,7 @@ const Home = () => {
             </div>
             <div className="testimonial-card">
               <p className="testimonial-quote">
-                &ldquo;Zentro replaced three different tools for our field team. Voice notes and location reminders alone saved us countless follow-up calls.&rdquo;
+                &ldquo;Zevive replaced three different tools for our field team. Voice notes and location reminders alone saved us countless follow-up calls.&rdquo;
               </p>
               <div className="testimonial-author">
                 <div className="testimonial-avatar green">PM</div>
@@ -370,7 +370,7 @@ const Home = () => {
             </div>
             <div className="testimonial-card">
               <p className="testimonial-quote">
-                &ldquo;We use ZygnPro for client agreements and Zentro for internal delivery. Together they cover signing and execution without switching platforms.&rdquo;
+                &ldquo;We use ZygnPro for client agreements and Zevive for internal delivery. Together they cover signing and execution without switching platforms.&rdquo;
               </p>
               <div className="testimonial-author">
                 <div className="testimonial-avatar blue">AS</div>
@@ -389,7 +389,7 @@ const Home = () => {
         <div className="container">
           <div className="why-inner">
             <div className="why-content">
-              <p className="section-label">Why ZygnPro & Zentro</p>
+              <p className="section-label">Why ZygnPro & Zevive</p>
               <h2 className="section-title">Security and productivity, engineered together</h2>
               <p className="section-subtitle">
                 We design tools that don't compromise on trust. Every feature is built with compliance, security, and user experience as the foundation.
@@ -443,7 +443,7 @@ const Home = () => {
               <div className="visual-card visual-card-bot">
                 <RiCheckboxLine />
                 <div>
-                  <strong>Zentro Task</strong>
+                  <strong>Zevive Task</strong>
                   <span>3 tasks completed today</span>
                 </div>
                 <div className="visual-progress">
@@ -509,19 +509,19 @@ const Home = () => {
           <div className="together-inner">
             <div>
               <p className="section-label">Better Together</p>
-              <h2 className="section-title">Sign with ZygnPro. Execute with Zentro.</h2>
+              <h2 className="section-title">Sign with ZygnPro. Execute with Zevive.</h2>
               <p className="section-subtitle">
-                Close the loop between agreements and action. After a contract is signed in ZygnPro, break deliverables into tasks in Zentro — assign owners, set deadlines, attach context, and track completion with full visibility.
+                Close the loop between agreements and action. After a contract is signed in ZygnPro, break deliverables into tasks in Zevive — assign owners, set deadlines, attach context, and track completion with full visibility.
               </p>
               <ul className="together-list">
                 <li><RiCheckLine className="together-check" /> Contract signed → project tasks created</li>
-                <li><RiCheckLine className="together-check" /> Legal proof in ZygnPro, execution tracked in Zentro</li>
+                <li><RiCheckLine className="together-check" /> Legal proof in ZygnPro, execution tracked in Zevive</li>
                 <li><RiCheckLine className="together-check" /> One workflow for agreements and delivery</li>
                 <li><RiTimeLine className="together-check" /> Save hours every week on coordination</li>
               </ul>
               <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap', marginTop: '28px' }}>
                 <Link to="/zygnpro" className="btn btn-primary">ZygnPro</Link>
-                <Link to="/zentro" className="btn btn-green">Zentro</Link>
+                <Link to="/zevive" className="btn btn-green">Zevive</Link>
                 <Link to="/about" className="btn btn-secondary">Our Story</Link>
               </div>
             </div>
@@ -535,7 +535,7 @@ const Home = () => {
               <div className="together-step">
                 <span className="together-step-badge green">2</span>
                 <strong>Plan delivery</strong>
-                <p>Create tasks, assign team, set deadlines in Zentro</p>
+                <p>Create tasks, assign team, set deadlines in Zevive</p>
               </div>
               <div className="together-arrow">↓</div>
               <div className="together-step">
@@ -557,7 +557,7 @@ const Home = () => {
             <p className="section-label">FAQ</p>
             <h2 className="section-title">Common questions</h2>
             <p className="section-subtitle">
-              Quick answers about ZygnPro, Zentro, security, and getting started.
+              Quick answers about ZygnPro, Zevive, security, and getting started.
             </p>
           </div>
           <div className="faq-list">
@@ -581,7 +581,7 @@ const Home = () => {
             <p className="section-label text-center">Available Now</p>
             <h2 className="section-title text-center">Ready to get started?</h2>
             <p className="section-subtitle text-center">
-              Download ZygnPro and Zentro today from the Google Play Store and transform how your team works.
+              Download ZygnPro and Zevive today from the Google Play Store and transform how your team works.
             </p>
 
             <div className="cta-buttons">
@@ -592,11 +592,11 @@ const Home = () => {
                   <span className="cta-app-name">ZygnPro</span>
                 </div>
               </a>
-              <a href={ZENTRO_URL} target="_blank" rel="noopener noreferrer" className="cta-app-btn">
+              <a href={Zevive_URL} target="_blank" rel="noopener noreferrer" className="cta-app-btn">
                 <div className="cta-app-icon green"><RiCheckboxLine /></div>
                 <div className="cta-app-info">
                   <span className="cta-app-store"><RiGooglePlayLine /> Google Play</span>
-                  <span className="cta-app-name">Zentro</span>
+                  <span className="cta-app-name">Zevive</span>
                 </div>
               </a>
             </div>
@@ -606,8 +606,8 @@ const Home = () => {
                 ZygnPro Details <RiArrowRightLine />
               </Link>
               <span>|</span>
-              <Link to="/zentro" className="cta-text-link">
-                Zentro Details <RiArrowRightLine />
+              <Link to="/zevive" className="cta-text-link">
+                Zevive Details <RiArrowRightLine />
               </Link>
               <span>|</span>
               <Link to="/contact" className="cta-text-link">

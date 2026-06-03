@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+﻿import React, { useState } from 'react';
 import {
   RiMailLine,
   RiMapPinLine,
@@ -15,13 +15,13 @@ import './ContactUs.css';
 const contactTopics = [
   { icon: <RiQuestionLine />, title: 'General Inquiry', desc: 'Questions about our apps or company' },
   { icon: <RiShieldCheckLine />, title: 'ZygnPro Support', desc: 'Technical or signing-related queries' },
-  { icon: <RiCheckboxLine />, title: 'Zentro Support', desc: 'Task management and feature questions' },
+  { icon: <RiCheckboxLine />, title: 'Zevive Support', desc: 'Task management and feature questions' },
   { icon: <RiBuilding2Line />, title: 'Enterprise Sales', desc: 'Bulk licensing or custom solutions' },
 ];
 
 const contactFaqs = [
   { q: 'How quickly will I hear back?', a: 'We aim to respond within 1–2 business days at zygnverify.com@gmail.com. Enterprise and urgent signing issues are prioritized when noted in your message.' },
-  { q: 'What should I include in my message?', a: 'Your name, the app you are using (ZygnPro or Zentro), a clear description of your question, and any relevant screenshots or error details for technical issues.' },
+  { q: 'What should I include in my message?', a: 'Your name, the app you are using (ZygnPro or Zevive), a clear description of your question, and any relevant screenshots or error details for technical issues.' },
   { q: 'Do you offer enterprise or bulk licensing?', a: 'Yes. Select Enterprise Inquiry in the form or choose that topic above. Our team can discuss admin access, volume deployment, and custom requirements.' },
   { q: 'Can I request a feature?', a: 'Absolutely. We actively improve both apps based on user feedback. Share your use case and we will consider it for future releases.' },
 ];
@@ -55,7 +55,7 @@ const ContactUs = () => {
           <p className="section-label">Contact Us</p>
           <h1 className="contact-hero-title">We would love to hear from you</h1>
           <p className="contact-hero-subtitle">
-            Have a question about ZygnPro, Zentro, or an enterprise partnership? Our team is ready to help.
+            Have a question about ZygnPro, Zevive, or an enterprise partnership? Our team is ready to help.
           </p>
         </div>
       </section>
@@ -133,7 +133,7 @@ const ContactUs = () => {
                       >
                         <option value="">Select an app</option>
                         <option value="zygnpro">ZygnPro</option>
-                        <option value="zentro">Zentro</option>
+                        <option value="Zevive">Zevive</option>
                         <option value="general">General / Both</option>
                         <option value="enterprise">Enterprise Inquiry</option>
                       </select>
@@ -229,7 +229,7 @@ const ContactUs = () => {
                 >
                   <div className="app-link-icon green"><RiCheckboxLine /></div>
                   <div>
-                    <div className="app-link-name">Zentro</div>
+                    <div className="app-link-name">Zevive</div>
                     <div className="app-link-desc">Download on Google Play</div>
                   </div>
                 </a>

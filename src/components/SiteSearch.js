@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+﻿import React, { useState, useEffect, useRef } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { RiSearchLine, RiCloseLine, RiArrowRightLine, RiExternalLinkLine } from 'react-icons/ri';
 import { filterSearch } from '../data/siteSearch';
@@ -94,7 +94,7 @@ const SiteSearch = ({ isOpen, onClose, variant = 'overlay' }) => {
             <div className="site-search-chips">
               {[
                 { label: 'ZygnPro', path: '/zygnpro' },
-                { label: 'Zentro', path: '/zentro' },
+                { label: 'Zevive', path: '/zevive' },
                 { label: 'Contact', path: '/contact' },
                 { label: 'Privacy', path: '/privacy-policy' },
               ].map(({ label, path }) => (

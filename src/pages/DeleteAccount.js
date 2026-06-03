@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { Link } from 'react-router-dom';
 import {
   RiDeleteBinLine,
@@ -13,9 +13,9 @@ import {
 import { SUPPORT_EMAIL } from '../constants/contact';
 import './LegalPage.css';
 
-const mailtoSubject = encodeURIComponent('Account Deletion Request — ZygnPro / Zentro');
+const mailtoSubject = encodeURIComponent('Account Deletion Request — ZygnPro / Zevive');
 const mailtoBody = encodeURIComponent(
-  `Hello,\n\nI would like to request deletion of my account and associated data.\n\nApp: [ZygnPro / Zentro / Both]\nRegistered mobile number or email: \nFull name: \nReason (optional): \n\nThank you.`
+  `Hello,\n\nI would like to request deletion of my account and associated data.\n\nApp: [ZygnPro / Zevive / Both]\nRegistered mobile number or email: \nFull name: \nReason (optional): \n\nThank you.`
 );
 const mailtoLink = `mailto:${SUPPORT_EMAIL}?subject=${mailtoSubject}&body=${mailtoBody}`;
 
@@ -39,7 +39,7 @@ const DeleteAccount = () => {
             <p className="section-label">Account</p>
             <h1 className="legal-hero-title">Delete Your Account</h1>
             <p className="legal-hero-subtitle">
-              If you wish to delete your ZygnPro or Zentro account, send us an email from your registered address.
+              If you wish to delete your ZygnPro or Zevive account, send us an email from your registered address.
               We will process your request in line with our Privacy Policy.
             </p>
           </div>
@@ -82,7 +82,7 @@ const DeleteAccount = () => {
                 </div>
                 <div className="legal-section-body">
                   <ul className="delete-checklist">
-                    <li>Which app your account is for: <strong>ZygnPro</strong>, <strong>Zentro</strong>, or <strong>both</strong></li>
+                    <li>Which app your account is for: <strong>ZygnPro</strong>, <strong>Zevive</strong>, or <strong>both</strong></li>
                     <li>Your registered <strong>mobile number</strong> or email used in the app</li>
                     <li>Your <strong>full name</strong> as shown in the account</li>
                     <li>A clear statement that you want to <strong>permanently delete</strong> your account and data</li>
@@ -130,11 +130,11 @@ const DeleteAccount = () => {
                   <div className="legal-section-icon" style={{ background: 'rgba(5, 150, 105, 0.08)', borderColor: 'rgba(5, 150, 105, 0.18)', color: '#34d399' }}>
                     <RiCheckboxLine />
                   </div>
-                  <h2 className="legal-section-title">Zentro — important note</h2>
+                  <h2 className="legal-section-title">Zevive — important note</h2>
                 </div>
                 <div className="legal-section-body">
                   <p className="legal-text">
-                    Deleting your Zentro account removes your tasks, voice notes, attachments, and activity history
+                    Deleting your Zevive account removes your tasks, voice notes, attachments, and activity history
                     from our systems, subject to standard backup retention periods. This action cannot be undone
                     after deletion is complete.
                   </p>

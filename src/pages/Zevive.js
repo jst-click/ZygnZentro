@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { Link } from 'react-router-dom';
 import {
   RiCheckboxLine,
@@ -20,7 +20,7 @@ import {
 } from 'react-icons/ri';
 import './ProductPage.css';
 
-const ZENTRO_URL = "https://play.google.com/store/apps/details?id=com.jstclick.zentro&pcampaignid=web_share";
+const Zevive_URL = "https://play.google.com/store/apps/details?id=com.jstclick.zentro&pcampaignid=web_share";
 
 const features = [
   {
@@ -74,7 +74,7 @@ const workflowSteps = [
   'Review activity logs for accountability and performance tracking',
 ];
 
-const zentroUseCases = [
+const ZeviveUseCases = [
   { icon: <RiTeamLine />, title: 'Team Projects', desc: 'Run sprints, assign owners, and track deliverables with shared visibility across your group.' },
   { icon: <RiMapPinLine />, title: 'Field Work', desc: 'Trigger reminders when arriving at job sites, warehouses, or client locations.' },
   { icon: <RiMicLine />, title: 'Quick Capture', desc: 'Record voice instructions on the go instead of typing long notes on a small screen.' },
@@ -83,22 +83,22 @@ const zentroUseCases = [
   { icon: <RiNotification3Line />, title: 'Deadline Management', desc: 'Never miss a due date with smart alerts tuned to priority and urgency.' },
 ];
 
-const zentroBenefits = [
+const ZeviveBenefits = [
   { title: 'Fewer tools, less friction', desc: 'Replace scattered notes, chat threads, and spreadsheets with one app built for tasks and teams.' },
   { title: 'Context where you need it', desc: 'Photos, voice, and files live on the task — not buried in email or messaging apps.' },
   { title: 'Real-time alignment', desc: 'When one person updates a task, everyone sees it instantly. No refresh, no confusion.' },
   { title: 'Privacy you control', desc: 'Your task data is yours. Delete history anytime and know we never sell your information.' },
 ];
 
-const zentroFaqs = [
-  { q: 'Can I use Zentro alone or with a team?', a: 'Both. Zentro works great for personal task management and scales to team collaboration with assignments, shared projects, and real-time updates.' },
-  { q: 'How do location-based reminders work?', a: 'Attach a place to any task. When you enter that area, Zentro can notify you — ideal for errands, site visits, and field workflows.' },
+const ZeviveFaqs = [
+  { q: 'Can I use Zevive alone or with a team?', a: 'Both. Zevive works great for personal task management and scales to team collaboration with assignments, shared projects, and real-time updates.' },
+  { q: 'How do location-based reminders work?', a: 'Attach a place to any task. When you enter that area, Zevive can notify you — ideal for errands, site visits, and field workflows.' },
   { q: 'Are voice notes stored securely?', a: 'Yes. Voice recordings are encrypted and tied to your tasks. They are not used for advertising or shared with third parties.' },
-  { q: 'Does Zentro work offline?', a: 'Core task features are designed for reliable mobile use. Sync resumes when connectivity returns so your team stays up to date.' },
-  { q: 'What analytics does Zentro provide?', a: 'Track completed tasks, progress trends, and bottlenecks through built-in charts and insights dashboards to improve how you work over time.' },
+  { q: 'Does Zevive work offline?', a: 'Core task features are designed for reliable mobile use. Sync resumes when connectivity returns so your team stays up to date.' },
+  { q: 'What analytics does Zevive provide?', a: 'Track completed tasks, progress trends, and bottlenecks through built-in charts and insights dashboards to improve how you work over time.' },
 ];
 
-const Zentro = () => {
+const Zevive = () => {
   return (
     <div className="product-page">
       {/* Hero */}
@@ -107,12 +107,12 @@ const Zentro = () => {
         <div className="container">
           <div className="product-hero-content">
             <div className="product-icon product-icon-green">
-              <img src="/zentro-logo.png" alt="" className="product-logo-img" />
+              <img src="/zevive-logo.png" alt="" className="product-logo-img" />
             </div>
             <span className="badge badge-green">Productivity & Task Management</span>
-            <h1 className="product-hero-title">Zentro</h1>
+            <h1 className="product-hero-title">Zevive</h1>
             <p className="product-hero-subtitle">
-              Your all-in-one personal productivity assistant. From managing daily to-dos to running complex team projects — Zentro keeps you organized, efficient, and in control.
+              Your all-in-one personal productivity assistant. From managing daily to-dos to running complex team projects — Zevive keeps you organized, efficient, and in control.
             </p>
             <div className="product-hero-meta">
               <span><RiSmartphoneLine /> Android 7.0+</span>
@@ -120,7 +120,7 @@ const Zentro = () => {
               <span><RiLockLine /> Privacy First</span>
             </div>
             <div className="hero-actions">
-              <a href={ZENTRO_URL} target="_blank" rel="noopener noreferrer" className="btn btn-green btn-lg">
+              <a href={Zevive_URL} target="_blank" rel="noopener noreferrer" className="btn btn-green btn-lg">
                 <RiGooglePlayLine /> Download on Google Play
               </a>
               <Link to="/contact" className="btn btn-secondary btn-lg">
@@ -136,13 +136,13 @@ const Zentro = () => {
         <div className="container">
           <div className="overview-grid">
             <div>
-              <p className="section-label">About Zentro</p>
+              <p className="section-label">About Zevive</p>
               <h2 className="section-title">More than a to-do list — your productivity engine</h2>
               <p className="section-subtitle">
-                Zentro combines task management, team collaboration, voice notes, location intelligence, and analytics into one clean, intuitive app that adapts to how you work.
+                Zevive combines task management, team collaboration, voice notes, location intelligence, and analytics into one clean, intuitive app that adapts to how you work.
               </p>
               <p style={{ color: 'var(--text-secondary)', fontSize: '15px', lineHeight: '1.7', marginTop: '16px', fontWeight: '300' }}>
-                Whether you are managing solo projects or coordinating across a team, Zentro scales with your workflow — delivering real-time sync, rich media attachments, and actionable insights every step of the way.
+                Whether you are managing solo projects or coordinating across a team, Zevive scales with your workflow — delivering real-time sync, rich media attachments, and actionable insights every step of the way.
               </p>
             </div>
             <div className="overview-stats">
@@ -172,7 +172,7 @@ const Zentro = () => {
             <p className="section-label">Features</p>
             <h2 className="section-title">Built to keep you focused and productive</h2>
             <p className="section-subtitle">
-              Zentro packs powerful productivity tools into a clean, distraction-free interface designed to help individuals and teams do their best work.
+              Zevive packs powerful productivity tools into a clean, distraction-free interface designed to help individuals and teams do their best work.
             </p>
           </div>
           <div className="features-grid">
@@ -194,13 +194,13 @@ const Zentro = () => {
         <div className="container">
           <div className="use-cases-inner">
             <div>
-              <p className="section-label">How Zentro Works</p>
+              <p className="section-label">How Zevive Works</p>
               <h2 className="section-title">A workflow built for results</h2>
               <p className="section-subtitle">
-                Zentro is designed to reduce friction and eliminate busywork — so you can spend more time doing and less time organizing.
+                Zevive is designed to reduce friction and eliminate busywork — so you can spend more time doing and less time organizing.
               </p>
             </div>
-            <div className="zentro-flow">
+            <div className="Zevive-flow">
               {workflowSteps.map((step, i) => (
                 <div className="flow-step" key={i}>
                   <div className="flow-step-num">{String(i + 1).padStart(2, '0')}</div>
@@ -221,11 +221,11 @@ const Zentro = () => {
             <p className="section-label">Use Cases</p>
             <h2 className="section-title">Productivity for every kind of work</h2>
             <p className="section-subtitle">
-              Whether you work solo or lead a team, Zentro adapts to how you plan, execute, and improve.
+              Whether you work solo or lead a team, Zevive adapts to how you plan, execute, and improve.
             </p>
           </div>
           <div className="content-grid-3">
-            {zentroUseCases.map(({ icon, title, desc }) => (
+            {ZeviveUseCases.map(({ icon, title, desc }) => (
               <div className="content-card" key={title}>
                 <div className="content-card-icon green">{icon}</div>
                 <h3>{title}</h3>
@@ -243,14 +243,14 @@ const Zentro = () => {
         <div className="container">
           <div className="overview-grid">
             <div>
-              <p className="section-label">Why Zentro</p>
+              <p className="section-label">Why Zevive</p>
               <h2 className="section-title">Designed to reduce busywork, not add it</h2>
               <p className="section-subtitle">
-                Most productivity apps pile on features you never use. Zentro focuses on what actually helps you and your team get things done.
+                Most productivity apps pile on features you never use. Zevive focuses on what actually helps you and your team get things done.
               </p>
             </div>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
-              {zentroBenefits.map(({ title, desc }) => (
+              {ZeviveBenefits.map(({ title, desc }) => (
                 <div className="why-point" key={title}>
                   <div className="why-point-icon" style={{ background: 'rgba(5, 150, 105, 0.12)', borderColor: 'rgba(5, 150, 105, 0.2)', color: '#34d399' }}>
                     <RiCheckLine />
@@ -286,7 +286,7 @@ const Zentro = () => {
               <p className="section-label">Privacy & Security</p>
               <h2 className="section-title">Your data stays yours</h2>
               <p className="section-subtitle" style={{ marginBottom: '32px' }}>
-                Zentro is built on a privacy-first foundation. Your task history, voice recordings, and personal data are protected and never monetized.
+                Zevive is built on a privacy-first foundation. Your task history, voice recordings, and personal data are protected and never monetized.
               </p>
               <ul className="security-list">
                 {[
@@ -315,7 +315,7 @@ const Zentro = () => {
         <div className="container">
           <div className="text-center" style={{ marginBottom: '48px' }}>
             <p className="section-label">Pro Tips</p>
-            <h2 className="section-title">Get more from Zentro every day</h2>
+            <h2 className="section-title">Get more from Zevive every day</h2>
           </div>
           <div className="content-grid-3">
             {[
@@ -342,7 +342,7 @@ const Zentro = () => {
         <div className="container">
           <div className="text-center" style={{ marginBottom: '48px' }}>
             <p className="section-label">Technical Overview</p>
-            <h2 className="section-title">Zentro at a glance</h2>
+            <h2 className="section-title">Zevive at a glance</h2>
           </div>
           <div className="specs-grid">
             {[
@@ -371,10 +371,10 @@ const Zentro = () => {
         <div className="container">
           <div className="text-center" style={{ marginBottom: '48px' }}>
             <p className="section-label">FAQ</p>
-            <h2 className="section-title">Zentro questions answered</h2>
+            <h2 className="section-title">Zevive questions answered</h2>
           </div>
           <div className="faq-list">
-            {zentroFaqs.map(({ q, a }) => (
+            {ZeviveFaqs.map(({ q, a }) => (
               <div className="faq-item" key={q}>
                 <div className="faq-question">{q}</div>
                 <p className="faq-answer">{a}</p>
@@ -391,10 +391,10 @@ const Zentro = () => {
           <p className="section-label">Available on Android</p>
           <h2 className="section-title">Take control of your productivity</h2>
           <p className="section-subtitle" style={{ margin: '0 auto 40px' }}>
-            Zentro is available now on the Google Play Store. Download it free and start managing your tasks smarter.
+            Zevive is available now on the Google Play Store. Download it free and start managing your tasks smarter.
           </p>
-          <a href={ZENTRO_URL} target="_blank" rel="noopener noreferrer" className="btn btn-green btn-lg">
-            <RiGooglePlayLine /> Download Zentro — Free
+          <a href={Zevive_URL} target="_blank" rel="noopener noreferrer" className="btn btn-green btn-lg">
+            <RiGooglePlayLine /> Download Zevive — Free
           </a>
           <div style={{ marginTop: '20px' }}>
             <Link to="/contact" className="cta-text-link">
@@ -407,4 +407,4 @@ const Zentro = () => {
   );
 };
 
-export default Zentro;
+export default Zevive;

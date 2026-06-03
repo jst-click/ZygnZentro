@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+﻿import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import {
   RiHome4Line,
@@ -12,7 +12,7 @@ import SiteSearch from './SiteSearch';
 import './MobileBar.css';
 
 const ZYGNPRO_URL = 'https://play.google.com/store/apps/details?id=com.jstclick.zygnpro&pcampaignid=web_share';
-const ZENTRO_URL = 'https://play.google.com/store/apps/details?id=com.jstclick.zentro&pcampaignid=web_share';
+const Zevive_URL = 'https://play.google.com/store/apps/details?id=com.jstclick.zentro&pcampaignid=web_share';
 
 const MobileBar = ({ onOpenMenu }) => {
   const [searchOpen, setSearchOpen] = useState(false);
@@ -21,7 +21,7 @@ const MobileBar = ({ onOpenMenu }) => {
   const tabs = [
     { path: '/', label: 'Home', icon: <RiHome4Line /> },
     { path: '/zygnpro', label: 'ZygnPro', icon: <RiShieldCheckLine /> },
-    { path: '/zentro', label: 'Zentro', icon: <RiCheckboxLine /> },
+    { path: '/zevive', label: 'Zevive', icon: <RiCheckboxLine /> },
   ];
 
   return (
@@ -56,8 +56,8 @@ const MobileBar = ({ onOpenMenu }) => {
         <a href={ZYGNPRO_URL} target="_blank" rel="noopener noreferrer" className="mobile-dl-btn blue">
           <RiGooglePlayLine /> ZygnPro
         </a>
-        <a href={ZENTRO_URL} target="_blank" rel="noopener noreferrer" className="mobile-dl-btn green">
-          <RiGooglePlayLine /> Zentro
+        <a href={Zevive_URL} target="_blank" rel="noopener noreferrer" className="mobile-dl-btn green">
+          <RiGooglePlayLine /> Zevive
         </a>
       </div>
 

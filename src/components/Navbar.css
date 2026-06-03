@@ -1,4 +1,4 @@
-.navbar {
+﻿.navbar {
   position: fixed;
   top: 0;
   left: 0;
@@ -281,7 +281,7 @@
 }
 
 .nav-dl-chip.green {
-  background: var(--zentro-gradient);
+  background: var(--Zevive-gradient);
 }
 
 .nav-drawer-cta {

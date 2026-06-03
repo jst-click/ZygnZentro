@@ -1,4 +1,4 @@
-/* PRODUCT HERO */
+﻿/* PRODUCT HERO */
 .product-hero {
   position: relative;
   overflow: hidden;
@@ -454,8 +454,8 @@
   color: var(--text-primary);
 }
 
-/* ZENTRO SPECIFICS */
-.zentro-flow {
+/* Zevive SPECIFICS */
+.Zevive-flow {
   display: flex;
   flex-direction: column;
   gap: 12px;

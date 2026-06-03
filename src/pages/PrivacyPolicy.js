@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { Link } from 'react-router-dom';
 import {
   RiShieldCheckLine,
@@ -25,8 +25,8 @@ const sections = [
         text: 'ZygnPro collects personal identification information required for digital signature workflows. This includes your mobile number for OTP-based authentication, biometric data (live photo, eye focus confirmation, fingerprint or thumb scan) used exclusively for identity verification during signing, document files you choose to upload and sign, timestamp and approximate location data recorded with each signing event, and device information required for app functionality and security.',
       },
       {
-        subtitle: '1.2 Zentro',
-        text: 'Zentro collects information necessary to provide task management and collaboration features. This includes your account registration details, task data, voice recordings attached to tasks, media files including images you attach, location data for location-based task reminders (only when you choose to use this feature), and activity and task history logs for tracking and accountability purposes.',
+        subtitle: '1.2 Zevive',
+        text: 'Zevive collects information necessary to provide task management and collaboration features. This includes your account registration details, task data, voice recordings attached to tasks, media files including images you attach, location data for location-based task reminders (only when you choose to use this feature), and activity and task history logs for tracking and accountability purposes.',
       },
       {
         subtitle: '1.3 Automatically Collected Information',
@@ -40,7 +40,7 @@ const sections = [
     content: [
       {
         subtitle: 'Core App Functionality',
-        text: 'Your data is used to operate and deliver the features of ZygnPro and Zentro. For ZygnPro, this means verifying your identity before each signing event, generating and storing secure audit trails, enabling document management, and maintaining blockchain-backed records of signed documents. For Zentro, this means creating and managing your tasks, enabling voice note attachment, providing location-based reminders, and facilitating team collaboration.',
+        text: 'Your data is used to operate and deliver the features of ZygnPro and Zevive. For ZygnPro, this means verifying your identity before each signing event, generating and storing secure audit trails, enabling document management, and maintaining blockchain-backed records of signed documents. For Zevive, this means creating and managing your tasks, enabling voice note attachment, providing location-based reminders, and facilitating team collaboration.',
       },
       {
         subtitle: 'Security and Compliance',
@@ -144,7 +144,7 @@ const sections = [
     content: [
       {
         subtitle: 'Age Restriction',
-        text: 'Both ZygnPro and Zentro are intended for users aged 18 years and above. These applications are designed for professional and legal use cases. We do not knowingly collect personal data from individuals under the age of 18. If we become aware that a minor has provided us with personal information, we will take immediate steps to delete that data.',
+        text: 'Both ZygnPro and Zevive are intended for users aged 18 years and above. These applications are designed for professional and legal use cases. We do not knowingly collect personal data from individuals under the age of 18. If we become aware that a minor has provided us with personal information, we will take immediate steps to delete that data.',
       },
     ],
   },
@@ -164,7 +164,7 @@ const PrivacyPolicy = () => {
             <p className="section-label">Legal</p>
             <h1 className="legal-hero-title">Privacy Policy</h1>
             <p className="legal-hero-subtitle">
-              This Privacy Policy explains how UvRevive collects, uses, and protects your information across ZygnPro and Zentro.
+              This Privacy Policy explains how UvRevive collects, uses, and protects your information across ZygnPro and Zevive.
             </p>
             <div className="legal-meta">
               <span><RiCalendarLine /> Effective Date: February 3, 2026</span>
@@ -201,7 +201,7 @@ const PrivacyPolicy = () => {
             <div className="legal-content">
               <div className="legal-intro">
                 <p>
-                  UvRevive offers two applications: <strong>ZygnPro</strong> (a secure digital signature platform) and <strong>Zentro</strong> (a productivity and task management application). We are committed to protecting your privacy and handling your data transparently and responsibly.
+                  UvRevive offers two applications: <strong>ZygnPro</strong> (a secure digital signature platform) and <strong>Zevive</strong> (a productivity and task management application). We are committed to protecting your privacy and handling your data transparently and responsibly.
                 </p>
                 <p>
                   This policy applies to both applications. Where practices differ between the two apps, we clearly indicate which app is being described.
@@ -236,7 +236,7 @@ const PrivacyPolicy = () => {
                   </p>
                   <div className="legal-contact-block">
                     <div><strong>Company:</strong> UvRevive</div>
-                    <div><strong>Apps:</strong> ZygnPro & Zentro</div>
+                    <div><strong>Apps:</strong> ZygnPro & Zevive</div>
                     <div><strong>Email:</strong> <a href={`mailto:${SUPPORT_EMAIL}`}>{SUPPORT_EMAIL}</a></div>
                     <div><strong>Location:</strong> India</div>
                   </div>

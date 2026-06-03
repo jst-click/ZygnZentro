@@ -1,4 +1,4 @@
-/* Visible only on mobile */
+﻿/* Visible only on mobile */
 .mobile-bottom-bar,
 .mobile-quick-download {
   display: none;
@@ -84,7 +84,7 @@
   }
 
   .mobile-dl-btn.green {
-    background: var(--zentro-gradient);
+    background: var(--Zevive-gradient);
   }
 
   .mobile-dl-btn:active {

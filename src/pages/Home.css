@@ -1,4 +1,4 @@
-/* HERO */
+﻿/* HERO */
 .hero {
   min-height: 100vh;
   display: flex;
@@ -233,7 +233,7 @@
   flex-shrink: 0;
 }
 
-.app-card-zentro .app-features-list svg {
+.app-card-Zevive .app-features-list svg {
   color: #34d399;
 }
 
@@ -421,7 +421,7 @@
 
 .visual-bar {
   height: 100%;
-  background: var(--zentro-gradient);
+  background: var(--Zevive-gradient);
   border-radius: 100px;
   transition: width 1s ease;
 }

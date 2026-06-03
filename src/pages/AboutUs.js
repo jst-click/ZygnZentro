@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { Link } from 'react-router-dom';
 import {
   RiShieldCheckLine,
@@ -18,7 +18,7 @@ import {
 import './AboutUs.css';
 
 const milestones = [
-  { year: '2026', title: 'Launch', desc: 'ZygnPro and Zentro released on Google Play — bringing secure signing and modern productivity to Android professionals.' },
+  { year: '2026', title: 'Launch', desc: 'ZygnPro and Zevive released on Google Play — bringing secure signing and modern productivity to Android professionals.' },
   { year: 'Today', title: 'Growing ecosystem', desc: 'Continuous updates across biometrics, blockchain verification, team collaboration, and analytics based on user feedback.' },
   { year: 'Ahead', title: 'Enterprise expansion', desc: 'Deeper admin tools, integrations, and partnership programs for organizations that need scale and compliance.' },
 ];
@@ -32,7 +32,7 @@ const offerings = [
   },
   {
     icon: <RiCheckboxLine />,
-    title: 'Zentro — Productivity Suite',
+    title: 'Zevive — Productivity Suite',
     desc: 'Task management, team sync, voice notes, media attachments, location reminders, and analytics — everything teams need to plan, execute, and improve together.',
     tags: ['Tasks', 'Collaboration', 'Voice Notes', 'Analytics'],
   },
@@ -80,14 +80,14 @@ const AboutUs = () => {
         <div className="about-hero-orb about-orb-2" />
         <div className="container">
           <div className="text-center">
-            <p className="section-label">About ZygnPro & Zentro</p>
+            <p className="section-label">About ZygnPro & Zevive</p>
             <h1 className="about-hero-title">
               We build tools that
               <br />
               professionals trust.
             </h1>
             <p className="about-hero-subtitle">
-              ZygnPro and Zentro are secure, enterprise-grade applications that help professionals and organizations sign documents digitally and manage their productivity with confidence.
+              ZygnPro and Zevive are secure, enterprise-grade applications that help professionals and organizations sign documents digitally and manage their productivity with confidence.
             </p>
           </div>
         </div>
@@ -104,14 +104,14 @@ const AboutUs = () => {
                 We believe that the tools professionals use every day should be intelligent, secure, and easy to use. We exist to replace outdated, paper-based processes and disconnected task systems with modern digital solutions that work the way people do.
               </p>
               <p style={{ color: 'var(--text-secondary)', fontSize: '16px', lineHeight: '1.8', fontWeight: '300', marginBottom: '32px' }}>
-                Our applications — ZygnPro and Zentro — represent two pillars of this mission: verified digital signing and high-performance task management. Together, they form a complete toolkit for the modern professional.
+                Our applications — ZygnPro and Zevive — represent two pillars of this mission: verified digital signing and high-performance task management. Together, they form a complete toolkit for the modern professional.
               </p>
               <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
                 <Link to="/zygnpro" className="btn btn-primary">
                   <RiShieldCheckLine /> ZygnPro
                 </Link>
-                <Link to="/zentro" className="btn btn-green">
-                  <RiCheckboxLine /> Zentro
+                <Link to="/zevive" className="btn btn-green">
+                  <RiCheckboxLine /> Zevive
                 </Link>
               </div>
             </div>
@@ -132,12 +132,12 @@ const AboutUs = () => {
                 </div>
               </div>
 
-              <div className="mission-app-card mission-app-zentro">
+              <div className="mission-app-card mission-app-Zevive">
                 <div className="mission-app-icon green">
-                  <img src="/zentro-logo.png" alt="" style={{ width: 32, height: 32, borderRadius: 8, objectFit: 'cover' }} />
+                  <img src="/zevive-logo.png" alt="" style={{ width: 32, height: 32, borderRadius: 8, objectFit: 'cover' }} />
                 </div>
                 <div className="mission-app-content">
-                  <h3>Zentro</h3>
+                  <h3>Zevive</h3>
                   <p>Intelligent task management with team collaboration, voice notes, location triggers, and productivity analytics.</p>
                   <div className="mission-app-tags">
                     <span>Task Management</span>
@@ -193,7 +193,7 @@ const AboutUs = () => {
                 We started with a simple observation: signing documents and managing work still rely on tools from another era. Fax machines, wet signatures, and endless email threads slow everyone down — and create risk when compliance matters.
               </p>
               <p style={{ color: 'var(--text-secondary)', fontSize: '16px', lineHeight: '1.8', fontWeight: '300' }}>
-                ZygnPro and Zentro were built to fix that. One app brings enterprise-grade digital signing to your pocket. The other gives teams a single place to plan, collaborate, and improve. Together, they form a practical toolkit for how work gets done today.
+                ZygnPro and Zevive were built to fix that. One app brings enterprise-grade digital signing to your pocket. The other gives teams a single place to plan, collaborate, and improve. Together, they form a practical toolkit for how work gets done today.
               </p>
             </div>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
@@ -271,7 +271,7 @@ const AboutUs = () => {
               <p className="section-label">Company</p>
               <h2 className="section-title">Built by UvRevive</h2>
               <p style={{ color: 'var(--text-secondary)', fontSize: '16px', lineHeight: '1.8', fontWeight: '300', marginBottom: '20px' }}>
-                ZygnPro and Zentro are offered by UvRevive, a technology company committed to building meaningful software products that solve real-world professional challenges.
+                ZygnPro and Zevive are offered by UvRevive, a technology company committed to building meaningful software products that solve real-world professional challenges.
               </p>
               <p style={{ color: 'var(--text-secondary)', fontSize: '16px', lineHeight: '1.8', fontWeight: '300' }}>
                 Our team brings together expertise in mobile development, security engineering, UX design, and regulatory compliance to create products that professionals and enterprises can depend on.

@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+﻿import React, { useState } from 'react';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import MobileBar from './components/MobileBar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import ZygnPro from './pages/ZygnPro';
-import Zentro from './pages/Zentro';
+import Zevive from './pages/Zevive';
 import AboutUs from './pages/AboutUs';
 import ContactUs from './pages/ContactUs';
 import PrivacyPolicy from './pages/PrivacyPolicy';
@@ -25,7 +25,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/zygnpro" element={<ZygnPro />} />
-            <Route path="/zentro" element={<Zentro />} />
+            <Route path="/zentro" element={<Navigate to="/zevive" replace />} />
+            <Route path="/zevive" element={<Zevive />} />
             <Route path="/about" element={<AboutUs />} />
             <Route path="/contact" element={<ContactUs />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
