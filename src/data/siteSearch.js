@@ -10,6 +10,7 @@ export const searchIndex = [
   { title: 'Email Support', path: '/contact', category: 'Support', keywords: 'zygnverify.com@gmail.com email mail contact support' },
   { title: 'Privacy Policy', path: '/privacy-policy', category: 'Legal', keywords: 'privacy data protection gdpr biometric' },
   { title: 'Terms & Conditions', path: '/terms-and-conditions', category: 'Legal', keywords: 'terms legal agreement license' },
+  { title: 'Delete Account', path: '/delete-account', category: 'Legal', keywords: 'delete account remove data erasure zygnverify.com@gmail.com' },
   { title: 'Biometric Identity Verification', path: '/zygnpro', category: 'ZygnPro Feature', keywords: 'fingerprint face eye verify identity' },
   { title: 'Blockchain Verification', path: '/zygnpro', category: 'ZygnPro Feature', keywords: 'blockchain hash tamper proof audit' },
   { title: 'Digital Document Signing', path: '/zygnpro', category: 'ZygnPro Feature', keywords: 'pdf sign upload document' },

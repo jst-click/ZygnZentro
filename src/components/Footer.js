@@ -112,6 +112,7 @@ const Footer = () => {
               {[
                 { path: '/privacy-policy', label: 'Privacy Policy' },
                 { path: '/terms-and-conditions', label: 'Terms & Conditions' },
+                { path: '/delete-account', label: 'Delete Account' },
               ].map(({ path, label }) => (
                 <li key={path}>
                   <Link to={path} className="footer-nav-link">
@@ -145,6 +146,8 @@ const Footer = () => {
             <Link to="/privacy-policy">Privacy Policy</Link>
             <span className="footer-sep" aria-hidden="true" />
             <Link to="/terms-and-conditions">Terms &amp; Conditions</Link>
+            <span className="footer-sep" aria-hidden="true" />
+            <Link to="/delete-account">Delete Account</Link>
           </nav>
         </div>
       </div>

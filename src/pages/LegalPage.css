@@ -244,6 +244,113 @@
   text-decoration: underline;
 }
 
+/* DELETE ACCOUNT */
+.delete-account-layout {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.delete-account-layout .legal-layout {
+  display: block;
+}
+
+.delete-email-card {
+  background: var(--bg-card);
+  border: 1px solid rgba(239, 68, 68, 0.2);
+  border-radius: var(--radius-lg);
+  padding: 40px 36px;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.delete-email-icon {
+  font-size: 48px;
+  color: #f87171;
+  margin-bottom: 20px;
+}
+
+.delete-email-card h2 {
+  font-family: var(--font-display);
+  font-size: 26px;
+  margin-bottom: 14px;
+}
+
+.delete-email-card p {
+  font-size: 15px;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  font-weight: 300;
+  max-width: 560px;
+  margin: 0 auto 24px;
+}
+
+.delete-email-card strong {
+  color: var(--text-primary);
+  word-break: break-all;
+}
+
+.delete-email-btn {
+  margin-bottom: 16px;
+}
+
+.delete-email-note {
+  font-size: 13px !important;
+  color: var(--text-muted) !important;
+  margin-bottom: 0 !important;
+}
+
+.delete-checklist {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.delete-checklist li {
+  font-size: 14px;
+  color: var(--text-secondary);
+  line-height: 1.65;
+  font-weight: 300;
+  padding-left: 24px;
+  position: relative;
+}
+
+.delete-checklist li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: #34d399;
+  font-weight: 600;
+}
+
+.delete-warning {
+  margin-top: 32px;
+}
+
+.delete-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 32px;
+}
+
+@media (max-width: 640px) {
+  .delete-email-card {
+    padding: 28px 20px;
+  }
+
+  .delete-actions {
+    flex-direction: column;
+  }
+
+  .delete-actions .btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
 /* TERMS SPECIFIC */
 .terms-highlight {
   background: rgba(245, 158, 11, 0.06);

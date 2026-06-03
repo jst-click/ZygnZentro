@@ -98,7 +98,7 @@ const sections = [
       },
       {
         subtitle: 'How to Request Deletion',
-        text: 'You can request account deletion and data removal by contacting us through the support channels listed at the end of this policy. We will acknowledge and process your request in accordance with applicable data protection laws.',
+        text: 'You can request account deletion by sending an email to zygnverify.com@gmail.com from your registered contact details. Visit our Delete Account page for step-by-step instructions. We will acknowledge and process your request in accordance with applicable data protection laws.',
       },
     ],
   },
@@ -240,9 +240,14 @@ const PrivacyPolicy = () => {
                     <div><strong>Email:</strong> <a href={`mailto:${SUPPORT_EMAIL}`}>{SUPPORT_EMAIL}</a></div>
                     <div><strong>Location:</strong> India</div>
                   </div>
-                  <Link to="/contact" className="btn btn-primary" style={{ marginTop: '20px' }}>
-                    Contact Support <RiArrowRightLine />
-                  </Link>
+                  <div style={{ display: 'flex', gap: '12px', marginTop: '20px', flexWrap: 'wrap' }}>
+                    <Link to="/delete-account" className="btn btn-primary">
+                      Delete Account <RiArrowRightLine />
+                    </Link>
+                    <Link to="/contact" className="btn btn-secondary">
+                      Contact Support <RiArrowRightLine />
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>
